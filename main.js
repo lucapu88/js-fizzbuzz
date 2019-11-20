@@ -3,9 +3,6 @@
 // al posto dei multipli di 5 stampare "Buzz"
 // al posto dei multipli di 3 e 5 stampare "FizzBuzz"
 
-//var fizz = (i % 3 == 0);
-//var buzz = (i % 5 == 0);
-
 for (var i = 1; i <= 100; i++) {
 
  if ((i % 3 == 0) && (i % 5 == 0)) {
@@ -17,5 +14,22 @@ for (var i = 1; i <= 100; i++) {
  } else {
    console.log(i);
  }
-
 }
+
+
+//SE UTILIZZO IL WHILE
+
+// var i = 1;
+// while (i <= 100) {
+//   if ((i % 3 == 0) && (i % 5 == 0)) {
+//     console.log('FizzBuzz');
+//   } else if (i % 5 == 0) {
+//     console.log('Buzz');
+//   }  else if (i % 3 == 0) {
+//     console.log('Fizz');
+//   }
+//   else {
+//     console.log(i);
+//   }
+//   i++;
+// }
